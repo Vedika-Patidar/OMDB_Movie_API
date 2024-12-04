@@ -1,0 +1,89 @@
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.omdb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 500px;
+  font-size: 16px;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 15px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  /* border: 2px solid green; */
+  margin: 20px;
+  padding: 0 50px;
+}
+
+.movie {
+  border-radius: 10px;
+  padding: 10px;
+  /* text-align: center; */
+  /* border: 2px solid rebeccapurple; */
+  margin: 10px;
+  /* width: 25%; */
+}
+
+.movie img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.pagenation{
+    display: flex;
+    gap: 2rem;
+}
+
+.prev-btn,
+.next-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #0056b3;
+}
